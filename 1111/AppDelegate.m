@@ -16,6 +16,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    
+    NSArray *arr = @[@"12",@"23",@"32",@"41",@"32"];
+    NSLog(@"含有的序号：%lu",(unsigned long)[arr indexOfObject:@"3"] );
+    
+    
+    NSArray *array = [[NSArray alloc]initWithObjects:@"beijing",@"shanghai",@"guangzou",@"wuhan", nil];
+    NSString *string = @"ang";
+    NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF CONTAINS %@",string];
+    NSLog(@"%@",[array filteredArrayUsingPredicate:pred]);
     // Override point for customization after application launch.
     return YES;
 }

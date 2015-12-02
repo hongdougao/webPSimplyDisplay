@@ -1,0 +1,24 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "c0fa565f-7530-4b08-b70f-d56ab07b148d++4756" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "c0fa565f-7530-4b08-b70f-d56ab07b148d++4756" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B54F7ADD-BB11-4FA5-A4A5-B81A06AFA0B0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "c0fa565f-7530-4b08-b70f-d56ab07b148d++4756" : "..\/Dropbox\/yintaiWang"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "1111",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "1111.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/10.32.11.57\/yintai",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "c0fa565f-7530-4b08-b70f-d56ab07b148d++4756"
+    }
+  ]
+}
