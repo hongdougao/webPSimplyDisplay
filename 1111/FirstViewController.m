@@ -32,7 +32,12 @@
 
     
     testImageView =   [[UIImageView  alloc]initWithFrame:CGRectMake(80, 80, 100, 100)];
-  
+    testImageView.layer.masksToBounds = YES;
+     testImageView.layer.borderWidth = 1.5;
+     testImageView.layer.borderColor  = [UIColor yellowColor].CGColor;
+    
+    
+    
     [self displayImage:imagePath];
     [self.view addSubview:testImageView];
     testImageView.frame = CGRectMake(80, 80, 150, 150);

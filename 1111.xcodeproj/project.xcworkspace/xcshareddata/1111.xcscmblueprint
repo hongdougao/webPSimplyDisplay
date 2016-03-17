@@ -1,20 +1,28 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6FD9C6201A6B9DCAE4681964F49E4042403CF401",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
     "c0fa565f-7530-4b08-b70f-d56ab07b148d++4756" : {
 
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6FD9C6201A6B9DCAE4681964F49E4042403CF401" : 0,
     "c0fa565f-7530-4b08-b70f-d56ab07b148d++4756" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B54F7ADD-BB11-4FA5-A4A5-B81A06AFA0B0",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6FD9C6201A6B9DCAE4681964F49E4042403CF401" : "1111\/",
     "c0fa565f-7530-4b08-b70f-d56ab07b148d++4756" : "..\/Dropbox\/yintaiWang"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "1111",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "1111.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hongdougao\/webPSimplyDisplay.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6FD9C6201A6B9DCAE4681964F49E4042403CF401"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/10.32.11.57\/yintai",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
