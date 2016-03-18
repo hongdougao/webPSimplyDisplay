@@ -21,6 +21,12 @@
 		8720BF9F1BFC6964007F2E7C /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 8720BF9E1BFC6964007F2E7C /* user.png */; };
 		8720BFA11BFC6967007F2E7C /* user-hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 8720BFA01BFC6967007F2E7C /* user-hover.png */; };
 		875BAB8D1C0EB9AC0059EA24 /* Rosetta.webp in Resources */ = {isa = PBXBuildFile; fileRef = 875BAB8C1C0EB9AC0059EA24 /* Rosetta.webp */; };
+		878C52321C9BA19700066D80 /* a.html in Resources */ = {isa = PBXBuildFile; fileRef = 878C52311C9BA19700066D80 /* a.html */; };
+		878C52351C9BA3D600066D80 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878C52331C9BA3D600066D80 /* WebKit.framework */; };
+		878C52361C9BA3D600066D80 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878C52341C9BA3D600066D80 /* WebKit.framework */; };
+		878C52391C9BA89000066D80 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878C52371C9BA89000066D80 /* JavaScriptCore.framework */; };
+		878C523A1C9BA89000066D80 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878C52381C9BA89000066D80 /* JavaScriptCore.framework */; };
+		878C523F1C9BDF7D00066D80 /* js_oc.js.txt in Resources */ = {isa = PBXBuildFile; fileRef = 878C523E1C9BDF7D00066D80 /* js_oc.js.txt */; };
 		87B422D01C0C20ED00DB34CB /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B422CE1C0C20ED00DB34CB /* UIImage+WebP.m */; };
 		87B422D11C0C20ED00DB34CB /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B422CF1C0C20ED00DB34CB /* WebP.framework */; };
 /* End PBXBuildFile section */
@@ -45,6 +51,12 @@
 		8720BF9E1BFC6964007F2E7C /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
 		8720BFA01BFC6967007F2E7C /* user-hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-hover.png"; sourceTree = "<group>"; };
 		875BAB8C1C0EB9AC0059EA24 /* Rosetta.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rosetta.webp; sourceTree = "<group>"; };
+		878C52311C9BA19700066D80 /* a.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = a.html; sourceTree = "<group>"; };
+		878C52331C9BA3D600066D80 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		878C52341C9BA3D600066D80 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/PrivateFrameworks/WebKit.framework; sourceTree = SDKROOT; };
+		878C52371C9BA89000066D80 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		878C52381C9BA89000066D80 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/PrivateFrameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		878C523E1C9BDF7D00066D80 /* js_oc.js.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = js_oc.js.txt; sourceTree = "<group>"; };
 		87B422CD1C0C20ED00DB34CB /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
 		87B422CE1C0C20ED00DB34CB /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
 		87B422CF1C0C20ED00DB34CB /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
@@ -55,6 +67,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				878C52391C9BA89000066D80 /* JavaScriptCore.framework in Frameworks */,
+				878C523A1C9BA89000066D80 /* JavaScriptCore.framework in Frameworks */,
+				878C52351C9BA3D600066D80 /* WebKit.framework in Frameworks */,
+				878C52361C9BA3D600066D80 /* WebKit.framework in Frameworks */,
 				87B422D11C0C20ED00DB34CB /* WebP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +81,10 @@
 		8720BF6E1BFC6029007F2E7C = {
 			isa = PBXGroup;
 			children = (
+				878C52371C9BA89000066D80 /* JavaScriptCore.framework */,
+				878C52381C9BA89000066D80 /* JavaScriptCore.framework */,
+				878C52331C9BA3D600066D80 /* WebKit.framework */,
+				878C52341C9BA3D600066D80 /* WebKit.framework */,
 				8720BF791BFC602A007F2E7C /* 1111 */,
 				8720BF781BFC602A007F2E7C /* Products */,
 				8720BF9A1BFC6169007F2E7C /* 首页@3x.png */,
@@ -93,7 +113,9 @@
 				8720BF811BFC602A007F2E7C /* FirstViewController.m */,
 				8720BF831BFC602A007F2E7C /* SecondViewController.h */,
 				8720BF841BFC602A007F2E7C /* SecondViewController.m */,
+				878C523E1C9BDF7D00066D80 /* js_oc.js.txt */,
 				875BAB8C1C0EB9AC0059EA24 /* Rosetta.webp */,
+				878C52311C9BA19700066D80 /* a.html */,
 				8720BF861BFC602A007F2E7C /* Main.storyboard */,
 				8720BF891BFC602A007F2E7C /* Assets.xcassets */,
 				8720BF8B1BFC602A007F2E7C /* LaunchScreen.storyboard */,
@@ -180,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8720BF9D1BFC616E007F2E7C /* 选中特卖@3x.png in Resources */,
+				878C52321C9BA19700066D80 /* a.html in Resources */,
 				8720BF8D1BFC602A007F2E7C /* LaunchScreen.storyboard in Resources */,
 				8720BF9F1BFC6964007F2E7C /* user.png in Resources */,
 				8720BF8A1BFC602A007F2E7C /* Assets.xcassets in Resources */,
@@ -189,6 +212,7 @@
 				8720BFA11BFC6967007F2E7C /* user-hover.png in Resources */,
 				875BAB8D1C0EB9AC0059EA24 /* Rosetta.webp in Resources */,
 				8720BF881BFC602A007F2E7C /* Main.storyboard in Resources */,
+				878C523F1C9BDF7D00066D80 /* js_oc.js.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,9 +339,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/1111/iOS-WebP",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
 				);
 				INFOPLIST_FILE = 1111/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -330,9 +356,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/1111/iOS-WebP",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
 				);
 				INFOPLIST_FILE = 1111/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
